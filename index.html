@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
+<body>
+  <div class="buttons">
+    <button id="start" onclick="go()">
+    Start
+    </button><button class="display" id="resume" onclick="resume()">
+    Resume
+    </button><button id="stop" onclick="stop()">
+    Stop
+    </button><button id="reset" onclick="reset()">
+    Reset
+    </button></div><br>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-6"><span>Break length</span> <button id="plus" onclick="plusB()">+</button><div class="BS" id="break">5
+    </div><button id="minus" onclick="minusB()">-</button></div>
+    <div class="col-sm-6"><span>Session length</span> <button id="plus_s" onclick="plusS()">+</button><div class="BS BS_2" id="session">25
+  </div><button id="minus_s" onclick="minusS()">-</button></div>
+  </div></div>
+  <div id="time">25:00</div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
