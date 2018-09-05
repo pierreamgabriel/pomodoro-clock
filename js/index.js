@@ -1,5 +1,3 @@
-/* Pomodo Clock developed by Pierre Macedo*/
-
 isRunning = true;
 this.timing;
 function startSession(duration, display) {
